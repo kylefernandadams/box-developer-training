@@ -1,5 +1,5 @@
 Box Developer Training
 ======================
 
-REAME Update In-Progress...
+README Update In-Progress...
 ======================
