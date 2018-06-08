@@ -1,0 +1,11 @@
+{
+  "name": "box-enterprise-events-aws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kyle Adams",
+  "license": "MIT",
+  "dependencies": {
+    "box-node-sdk": "^1.18.0",
+    "moment": "^2.22.2"
+  }
+}

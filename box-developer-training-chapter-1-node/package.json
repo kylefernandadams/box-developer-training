@@ -1,0 +1,30 @@
+{
+  "name": "box-developer-training-chapter-1-node",
+  "version": "1.0.0",
+  "description": "Box Developer Training - Chapter 1 (Node.js)",
+  "main": "index.js",
+  "author": "Kyle Adams - Box Channel Solutions Architect",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "box-node-sdk": "^1.18.0",
+    "express": "^4.16.3",
+    "http": "^0.0.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.5",
+    "rimraf": "^2.6.2"
+  }
+}

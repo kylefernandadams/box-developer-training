@@ -1,0 +1,12 @@
+{
+  "name": "workplace-by-facebook-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kyle Adams",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "box-node-sdk": "^1.18.0",
+    "moment-timezone": "^0.5.17"
+  }
+}
