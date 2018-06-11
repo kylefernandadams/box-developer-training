@@ -5,7 +5,7 @@ The Box Developer Training repo contains source code used in the Box Partner Dev
 
 Chapters
 ========
-Chapter 1: Table of Contents - The Basics - Node.js
+Chapter 1: Table of Contents - Node.js
 -------------------------------
 * [Exercise 1 - JWT Authentication](https://github.com/kylefernandadams/box-developer-training/blob/master/box-developer-training-chapter-1-node/exercises/1-authentication/authentication-services.js)
 * Exercise 2 - Content Services
