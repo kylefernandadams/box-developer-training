@@ -24,7 +24,7 @@ class BoxWebhooksExercise {
                 return client.webhooks.create(
                     folderId,
                     client.itemTypes.FOLDER,
-                    appConfig.awsLambdaIvokeUrl,
+                    appConfig.awsLambdaInvokeUrl,
                     [
                         client.webhooks.triggerTypes.FILE.UPLOADED
                     ]

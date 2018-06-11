@@ -13,7 +13,7 @@ const accountMetadata = exports.accountMetadata = {
 };
 
 // Exercise 2.2 - Webhook Variables
-const awsLambdaIvokeUrl = exports.awsLambdaIvokeUrl = 'WEBHOOK_INVOCATION_URL_HERE';
+const awsLambdaInvokeUrl = exports.awsLambdaInvokeUrl = 'WEBHOOK_INVOCATION_URL_HERE';
 
 // Exercise 4.1 - Metadata Driven Retention Variables
 const fieldName = exports.fieldName = 'accountStatus';
