@@ -5,7 +5,7 @@ The Box Developer Training repo contains source code used in the Box Partner Dev
 
 Chapters
 ========
-Chapter 1: The Basics - Node.js
+Chapter 1: Table of Contents - The Basics - Node.js
 -------------------------------
 * [Exercise 1 - JWT Authentication](https://github.com/kylefernandadams/box-developer-training/blob/master/box-developer-training-chapter-1-node/exercises/1-authentication/authentication-services.js)
 * Exercise 2 - Content Services
@@ -26,8 +26,8 @@ Chapter 1: The Basics - Node.js
     * [Exercise 4.4 - Watermarking](https://github.com/kylefernandadams/box-developer-training/blob/master/box-developer-training-chapter-1-node/exercises/4-governance-services/4.4-watermarking/watermarking-exercise.js)
 
 
-Setup
-=====
+Chapter 1: Setup
+----------------
 1. Follow the instructions in the [JWT Application Setup documentation](https://developer.box.com/docs/setting-up-a-jwt-app).
 2. Copy and the public/private keypair json file to the base project directories. [/box-developer-training-chapter-1-node/](https://github.com/kylefernandadams/box-developer-training/tree/master/box-developer-training-chapter-1-node).
 3. Rename the automatically generated *_config.json file to `box_config.json`. 
