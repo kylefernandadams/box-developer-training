@@ -1,0 +1,28 @@
+body,
+html {
+    border: 0 none;
+    box-sizing: border-box !important;
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+  background: #0061D5;
+  border-bottom: 1px solid #eaeaea;
+  color: #eaeaea;
+  flex: 0 0 60px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 50px;
+}
+
+
+
+main {
+  margin: 0px;
+  padding: 0px;
+  height: 650px;
+}
