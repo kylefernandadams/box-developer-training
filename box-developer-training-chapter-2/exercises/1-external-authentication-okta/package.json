@@ -1,0 +1,20 @@
+{
+  "name": "external-authentication-okta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kyle Adams",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client/ && npm start",
+    "server": "cd server/ && npm run server",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "cd server/ && node server.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "react-scripts": "^1.1.5"
+  }
+}
